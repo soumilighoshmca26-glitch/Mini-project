@@ -1,0 +1,128 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    box-shadow: 0 0 20px #ff005d;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .login-box {
+    display: flex;
+    width: 900px;
+    height: 500px;
+  }
+  
+  /* LEFT BOX */
+  .left-box {
+    flex: 1;
+    background-color: #1f1f1f;
+    padding: 60px 40px;
+    position: relative;
+  }
+  
+  .left-box h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 12px 40px 12px 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #fff;
+  }
+  
+  .forgot {
+    display: block;
+    margin: 10px 0;
+    text-align: right;
+    color: #ff005d;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #ff005d, #c90050);
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 0, 93, 0.4);
+    transition: 0.3s;
+  }
+  
+  .login-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .left-box p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup {
+    color: #ff005d;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* RIGHT ANGULAR BOX */
+  .right-box {
+    flex: 1;
+    background: linear-gradient(135deg, #c90050 0%, #ff005d 100%);
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .right-box h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .right-box p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
